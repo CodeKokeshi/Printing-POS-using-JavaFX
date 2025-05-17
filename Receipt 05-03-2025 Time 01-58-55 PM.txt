@@ -1,0 +1,7 @@
+Printing Business - Receipt
+Date: 05-03-2025 01:58:51 PM
+
+Print: 13 pages, Colored, Images: Yes, Price: ₱107.00
+Photocopy: 20 pages, Monochrome, Images: No, Price: ₱60.00
+
+Total Price: ₱167.00

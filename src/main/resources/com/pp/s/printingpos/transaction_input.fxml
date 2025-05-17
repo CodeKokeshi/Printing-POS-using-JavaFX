@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.pp.s.printingpos.TransactionInputController"
+      alignment="CENTER"
+      spacing="20"
+      style="-fx-background-color: #f0f0f0;">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label fx:id="serviceTypeLabel"
+           style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+    <HBox alignment="CENTER" spacing="10">
+        <Label text="Number of Pages:"
+               style="-fx-font-size: 16px;"/>
+        <TextField fx:id="numberOfPagesField"
+                   promptText="Enter number of pages"
+                   style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="10">
+        <Label text="Color Option:"
+               style="-fx-font-size: 16px;"/>
+        <RadioButton fx:id="monochromeRadio" text="Monochrome"
+                     style="-fx-font-size: 16px;"/>
+        <RadioButton fx:id="coloredRadio" text="Colored"
+                     style="-fx-font-size: 16px;"/>
+    </HBox>
+
+    <CheckBox fx:id="imagesCheckbox" text="Includes Images?"
+              style="-fx-font-size: 16px;"/>
+
+    <Button text="Add Transaction"
+            onAction="#handleAddTransaction"
+            style="-fx-font-size: 18px; -fx-min-width: 200px;"/>
+</VBox>
