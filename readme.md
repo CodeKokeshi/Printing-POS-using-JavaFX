@@ -2,6 +2,9 @@
 
 A simple computer program that helps cashiers and printing shop owners handle daily business operations without doing manual calculations and paperwork.
 
+# How to run?
+Launch the PrintPOSApplication.java after the project was imported to any IDE.
+
 ## What This Program Does
 
 This program helps printing shop staff by making their work easier. Instead of calculating prices by hand and writing receipts manually, cashiers can:
